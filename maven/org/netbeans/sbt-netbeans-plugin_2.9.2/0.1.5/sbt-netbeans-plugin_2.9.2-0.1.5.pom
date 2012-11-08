@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.netbeans</groupId>
+    <artifactId>sbt-netbeans-plugin_2.9.2</artifactId>
+    <packaging>jar</packaging>
+    <description>sbt-netbeans-plugin</description>
+    <version>0.1.5</version>
+    <name>sbt-netbeans-plugin</name>
+    <organization>
+        <name>org.netbeans</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>0.12.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalaz</groupId>
+            <artifactId>scalaz-core_2.9.2</artifactId>
+            <version>6.0.4</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>SonatypeOSSSnapshots</id>
+            <name>Sonatype OSS Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>TypesafeRepo</id>
+            <name>Typesafe Repo</name>
+            <url>http://repo.typesafe.com/typesafe/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
